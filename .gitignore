@@ -1,0 +1,114 @@
+# Archivos de la IDE de Visual Studio y carpetas temporales
+**/.vs/
+**/.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Carpetas de compilación
+**/[Bb]in/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Tt]est[Rr]esults/
+
+# Archivos de paquetes NuGet
+**/[Pp]ackages/
+*.nupkg
+# Ignorar la carpeta de paquetes en la raíz de la solución
+!**/packages/build/
+
+# Ignorar archivos de símbolos de Visual Studio
+*.pdb
+*.opendb
+
+# Archivos de configuración de usuario de .NET Core
+*.userprefs
+*.csproj.user
+
+# Archivos de la tienda de certificados de .NET Core
+**/[Cc]ert/[Ss]tore/
+
+# Archivos de salida de la herramienta de generación de perfiles de rendimiento
+**/[Pp]rofiling/
+
+# Archivos de registro de base de datos de SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Carpetas de salida de Rider
+**/.idea/
+
+# Carpetas node_modules si utilizas herramientas del lado del cliente
+**/node_modules/
+
+# Archivos y carpetas relacionados con Docker
+**/[Dd]ocker[Vv]olume/
+**/[Dd]ocker[Cc]ompose*.yml
+
+# Archivos de configuración y de entorno
+**/appsettings.*.json
+**/secrets.*
+**/.env
+
+# Archivos generados durante la construcción
+*.exe
+*.dll
+*.so
+*.dylib
+*.jar
+
+# Archivos de configuración de cobertura de código
+*.coverage
+*.coveragexml
+
+# Archivos de configuración de editor
+.editorconfig
+.gitattributes
+
+# Carpeta de paquetes NuGet v3
+**/[Pp]ackagesCache/
+
+# Archivos de caché del compilador
+*.jscache
+*.jfm
+
+# Archivos de caché de TypeScript
+*.tsbuildinfo
+
+# Herramientas de JetBrains Rider
+.idea/
+
+# Archivos de configuración de Bundle y Minify
+bundleconfig.json
+minify.json
+
+# Archivos de estado de despliegue de Azure
+**/azure-pipelines.yml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# Herramientas de desarrollo local de Azure Functions
+local.settings.json
+
+# Archivos de configuración de historia de PowerShell
+*.psess
+*.history
+
+# Herramientas de Powershell
+**/paket-files/
+
+# Otros archivos y carpetas
+*.swp
+*.bak
+*.tmp
+*~
+*.swp
+.DS_Store
+
+# Archivos de proyectos y soluciones específicos
+*.csproj
+*.vbproj
+*.snk
