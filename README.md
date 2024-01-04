@@ -282,21 +282,4 @@ Además, necesitarás configurar el servicio mock que proporciona los descuentos
 
    - Actualiza las rutas según corresponda para tu entorno específico.
 
-### Pasos para la Instalación y Ejecución del Proyecto
-Después de configurar los archivos JSON, sigue estos pasos para instalar y ejecutar el proyecto:
 
-1. **Clonar el Repositorio:**
-   Utiliza Git para clonar el repositorio en tu máquina local.
-
-   ```shell
-   git clone [URL del Repositorio]
-
-
-## Uso
-(Detalles sobre cómo interactuar con la API)
-
-## Contribución
-(Información sobre cómo contribuir al proyecto)
-
-## Licencia
-(Detalles sobre la licencia del proyecto)
