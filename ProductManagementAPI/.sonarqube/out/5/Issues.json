@@ -1,0 +1,273 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-3.23524.11 (f43cd10b)",
+        "semanticVersion": "4.8.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento campo \"_mockFileService\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/ProductStateRepositoryTests.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 36,
+                  "endLine": 10,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/ProductStateRepositoryTests.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 36,
+                  "endLine": 10,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento campo \"_repository\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/ProductStateRepositoryTests.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 40,
+                  "endLine": 11,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/ProductStateRepositoryTests.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 40,
+                  "endLine": 11,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento campo \"_mockApiClient\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/DiscountRepositoryTests.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 34,
+                  "endLine": 14,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/DiscountRepositoryTests.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 34,
+                  "endLine": 14,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento campo \"_discountRepository\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/DiscountRepositoryTests.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 37,
+                  "endLine": 15,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/DiscountRepositoryTests.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 37,
+                  "endLine": 15,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento campo \"_mockFileService\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/ProductRepositoryTests.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 36,
+                  "endLine": 12,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/ProductRepositoryTests.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 36,
+                  "endLine": 12,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento campo \"_repository\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento campo como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/ProductRepositoryTests.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 35,
+                  "endLine": 13,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/ProductRepositoryTests.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 35,
+                  "endLine": 13,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1859",
+          "level": "note",
+          "message": "Cambiar el tipo de campo '_discountRepository' de 'ProductManagementAPI.Product.Domain.interfaces.IDiscountRepository' a 'ProductManagementAPI.Infrastructure.repositories.DiscountRepository' para mejorar el rendimiento",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductManagementAPI.Product.Infrastructure.UnitTests/repositories/DiscountRepositoryTests.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 37,
+                  "endLine": 15,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1859": {
+          "id": "CA1859",
+          "shortDescription": "Usar tipos concretos cuando sea posible para mejorar el rendimiento",
+          "fullDescription": "El uso de tipos concretos evita la sobrecarga de llamadas virtuales o de interfaz y habilita la inserción.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1859",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

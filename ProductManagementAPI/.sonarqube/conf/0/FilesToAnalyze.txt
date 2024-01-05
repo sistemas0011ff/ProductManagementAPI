@@ -1,0 +1,15 @@
+﻿D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\aggregates\Product.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\dto\DiscountDto.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\dto\ProductCreationDto.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\dto\ProductInfrastructureDto.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\dto\ProductStateInfrastructureDto.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\entities\Discount.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\factory\ProductFactory.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\interfaces\IDiscountRepository.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\interfaces\IProductFactory.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\interfaces\IProductIdentityService.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\interfaces\IProductRepository.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\interfaces\IProductStateRepository.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\services\ProductIdentityService.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\valueObjects\ProductId.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextDomain\valueObjects\ProductStatus.cs

@@ -1,0 +1,10 @@
+﻿D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\Configuration\ApiSettings.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\Configuration\Endpoints.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\Configuration\FileService.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\Configuration\ProductRepositorySettings.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\HttpClients\ApiClient.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\interfaces\IApiClient.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\interfaces\IFileService.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\repositories\DiscountRepository.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\repositories\ProductRepository.cs
+D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\repositories\ProductStateRepository.cs

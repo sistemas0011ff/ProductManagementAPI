@@ -19,7 +19,7 @@ namespace ProductManagementAPI.Product.Application.usecases
              
             try
             {
-                var command = new CreateProductCommand { Product = request };
+                var command = new CreateProductCommand(request);
                 return await _mediator.Send(command);
             }
             catch (Exception ex)

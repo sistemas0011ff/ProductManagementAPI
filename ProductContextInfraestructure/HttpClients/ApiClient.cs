@@ -16,18 +16,28 @@ namespace ProductManagementAPI.Infrastructure.HttpClients
 
         public async Task<T?> GetAsync<T>(string url) where T : class
         {
-            var response = await _httpClient.GetAsync(url);
+            if (string.IsNullOrWhiteSpace(url))
+            {
+                throw new ArgumentException("URL cannot be null or whitespace.", nameof(url));
+            }
+
+            var response = await _httpClient.GetAsync(url).ConfigureAwait(false);
 
             if (!response.IsSuccessStatusCode)
             {
-                
+                // Consider logging the error or handling different status codes appropriately
                 throw new HttpRequestException($"Request failed with status code: {response.StatusCode}");
             }
 
-            var content = await response.Content.ReadAsStringAsync();
+            var content = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+
+            return DeserializeContent<T>(content);
+        }
+
+        private T? DeserializeContent<T>(string content) where T : class
+        {
             if (string.IsNullOrWhiteSpace(content))
             {
-               
                 return default;
             }
 
@@ -35,11 +45,11 @@ namespace ProductManagementAPI.Infrastructure.HttpClients
             {
                 return JsonSerializer.Deserialize<T>(content, _serializerOptions);
             }
-            catch (JsonException)
-            { 
-                throw;
+            catch (JsonException ex)
+            {
+                // Consider logging the exception or handling it if necessary
+                throw new InvalidOperationException("Error deserializing the response content.", ex);
             }
         }
- 
     }
 }

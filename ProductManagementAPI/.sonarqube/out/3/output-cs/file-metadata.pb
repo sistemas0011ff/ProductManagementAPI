@@ -1,0 +1,14 @@
+|
+sD:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\Configuration\ApiSettings.csutf-8z
+qD:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\Configuration\Endpoints.csutf-8|
+sD:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\Configuration\FileService.csutf-8ã
+ÅD:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\Configuration\ProductRepositorySettings.csutf-8x
+oD:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\HttpClients\ApiClient.csutf-8x
+oD:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\interfaces\IApiClient.csutf-8z
+qD:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\interfaces\IFileService.csutf-8Ç
+yD:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\repositories\DiscountRepository.csutf-8Å
+xD:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\repositories\ProductRepository.csutf-8Ü
+}D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\repositories\ProductStateRepository.csutf-8±
+•D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\obj\Debug\net7.0\ProductManagementAPI.Product.Infrastructure.GlobalUsings.g.csutf-8¢
+ñD:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.csutf-8Ø
+£D:\Eduv4\Personal\Sise\Proyectos\WCF\EFajardoRetoTecnico\ProductContextInfraestructure\obj\Debug\net7.0\ProductManagementAPI.Product.Infrastructure.AssemblyInfo.csutf-8

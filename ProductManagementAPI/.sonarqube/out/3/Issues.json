@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-3.23524.11 (f43cd10b)",
+        "semanticVersion": "4.8.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"FilePath\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductContextInfraestructure/Configuration/ProductRepositorySettings.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductContextInfraestructure/Configuration/ProductRepositorySettings.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"FilePathStates\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductContextInfraestructure/Configuration/ProductRepositorySettings.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductContextInfraestructure/Configuration/ProductRepositorySettings.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductContextInfraestructure/Configuration/FileService.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 24,
+                  "endLine": 11,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Posible argumento de referencia nulo para el parámetro \"path\" en \"DirectoryInfo Directory.CreateDirectory(string path)\".",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductContextInfraestructure/Configuration/FileService.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 43,
+                  "endLine": 25,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6602",
+          "level": "warning",
+          "message": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductContextInfraestructure/repositories/ProductRepository.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 44,
+                  "endLine": 58,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6602",
+          "level": "warning",
+          "message": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductContextInfraestructure/repositories/ProductRepository.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 44,
+                  "endLine": 46,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6602",
+          "level": "warning",
+          "message": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Eduv4/Personal/Sise/Proyectos/WCF/EFajardoRetoTecnico/ProductContextInfraestructure/repositories/ProductRepository.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 36,
+                  "endLine": 33,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Posible tipo de valor devuelto de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Posible argumento de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S6602": {
+          "id": "S6602",
+          "shortDescription": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension",
+          "fullDescription": "Both the List.Find method and IEnumerable.FirstOrDefault method can be used to find the first element that satisfies a given condition in a collection. However, List.Find can be faster than IEnumerable.FirstOrDefault for List objects. For small collections, the performance difference may be minor, but for large collections, it can make a noticeable difference. The same applies for ImmutableList and arrays too.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6602",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

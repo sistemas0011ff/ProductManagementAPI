@@ -18,13 +18,27 @@ namespace ProductManagementAPI.Product.Application.usecases
 
         public async Task<DiscountApplicationDto> ExecuteAsync(string productId)
         {
+            if (string.IsNullOrWhiteSpace(productId))
+            {
+                throw new ArgumentException("Product ID cannot be null or whitespace.", nameof(productId));
+            }
+
             var query = new GetProductDiscountQuery(new ProductId(productId));
             var discountDto = await _mediator.Send(query);
 
+            if (discountDto == null)
+            {
+                return new DiscountApplicationDto
+                {
+                    Id = productId,
+                    DiscountPercent = 0
+                };
+            }
+
             return new DiscountApplicationDto
             {
-                Id=discountDto.Id,
-                DiscountPercent = discountDto?.DiscountPercent ?? 0
+                Id = discountDto.Id,
+                DiscountPercent = discountDto.DiscountPercent
             };
         }
     }
